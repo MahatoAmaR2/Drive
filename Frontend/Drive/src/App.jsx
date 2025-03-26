@@ -1,16 +1,17 @@
+import "./App.css";
 
-import './App.css'
+import Allroutes from "./routes/Route";
+import { Provider } from "react-redux"; // Import the Provider
+import {store} from "../src/reducer/store.js";
 
 function App() {
-  
-
   return (
     <>
-      <div>
-        <h1 className='text-7xl underline'>Har Har Mahadev</h1>
-      </div>
+     <Provider store={store}> 
+      <Allroutes />
+      </Provider>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

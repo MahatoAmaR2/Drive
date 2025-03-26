@@ -1,0 +1,24 @@
+/* ProgressBar.css */
+.custom-progress {
+    appearance: none; /* Remove default browser styles */
+    border-radius: 10px; /* Optional: rounded corners */
+  }
+  
+  /* Style the background (empty part of the progress bar) */
+  .custom-progress::-webkit-progress-bar {
+    background-color: #e0e0df; /* Light gray background */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  /* Style the filled portion of the progress bar */
+  .custom-progress::-webkit-progress-value {
+    background-color: #ff8132; /* Green filled portion */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  /* For Firefox */
+  .custom-progress::-moz-progress-bar {
+    background-color: #ff8132; /* Green filled portion */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
