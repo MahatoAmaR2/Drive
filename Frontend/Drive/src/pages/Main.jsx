@@ -6,10 +6,9 @@ const Main = () => {
   return (
     <div className="bg-white shadow-2xl w-[78%] mt-2 h-[87vh] rounded-3xl overflow-hidden">
       <div className="greet pl-6 pt-4">
-        <p className="text-2xl">Welcome to SkyCube</p>
+        <p className="text-2xl">Welcome to Docuvault</p>
       </div>
 
-      {/* Scrollable area for cards */}
       <div className="overflow-y-auto h-[76vh] p-4">
         <Cards />
         <Cards />
