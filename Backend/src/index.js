@@ -5,6 +5,9 @@ dotenv.config({
   path: "./.env",
 });
 
+app.get("/",(req, res)=>{
+  res.send("<h1>Har Har Mahadev</h1>")
+})
 connectDB()
   .then(() => {
     app.listen(process.env.PORT || 8028, () => {
